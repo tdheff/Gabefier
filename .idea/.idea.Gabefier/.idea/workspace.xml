@@ -10,6 +10,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BD2D0203-B95B-4107-85ED-53DE70BCC8A4/64/263bf282/ISocketMessageChannel.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -33,10 +36,13 @@
   </component>
   <component name="RunManager">
     <configuration name="Gabefier" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/bin/Debug/Gabefier.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/Debug" />
       <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="BOT_TOKEN" value="ODA0NTE2Nzc0NTYwNTMwNDcz.YBNeog.5EXoTQ6ltXVWqAwE40H01bsIpf8" />
+      </envs>
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
@@ -45,7 +51,7 @@
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="Console" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.1" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -59,35 +65,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611882716121</updated>
-      <workItem from="1611882725900" duration="1552000" />
+      <workItem from="1611882725900" duration="2811000" />
+      <workItem from="1611962432138" duration="1470000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1234" height="398" key="GridCell.Tab.0.bottom" timestamp="1611884207152">
+    <state x="514" y="152" width="1092" height="807" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611963268206">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="398" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1611884207152" />
-    <state width="1234" height="398" key="GridCell.Tab.0.center" timestamp="1611884207152">
+    <state x="514" y="152" width="1092" height="807" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1611963268206" />
+    <state x="1634" y="435" key="EnvironmentVariablesDialog" timestamp="1611963264733">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="398" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1611884207152" />
-    <state width="1234" height="398" key="GridCell.Tab.0.left" timestamp="1611884207152">
+    <state x="1634" y="435" key="EnvironmentVariablesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1611963264733" />
+    <state width="1234" height="734" key="GridCell.Tab.0.bottom" timestamp="1611963303267">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="398" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1611884207152" />
-    <state width="1234" height="398" key="GridCell.Tab.0.right" timestamp="1611884207152">
+    <state width="1234" height="734" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1611963303267" />
+    <state width="1234" height="734" key="GridCell.Tab.0.center" timestamp="1611963303267">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="398" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1611884207152" />
+    <state width="1234" height="734" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1611963303267" />
+    <state width="1234" height="734" key="GridCell.Tab.0.left" timestamp="1611963303267">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="734" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1611963303267" />
+    <state width="1234" height="734" key="GridCell.Tab.0.right" timestamp="1611963303267">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="734" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1611963303267" />
+    <state x="1423" y="354" key="run.anything.popup" timestamp="1611962480884">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1423" y="354" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1611962480884" />
     <state x="1583" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1611882747029">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

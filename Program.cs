@@ -8,8 +8,6 @@ namespace Gabefier
 {
     internal class Program
     {
-        private const string Token = "ODA0NTE2Nzc0NTYwNTMwNDcz.YBNeog.bymd6loUowb9FgTUlIg8J8lgiO8";
-        
         private DiscordSocketClient _client;
         private ulong _storedId;
 
@@ -37,7 +35,9 @@ namespace Gabefier
             // var token = File.ReadAllText("token.txt");
             // var token = JsonConvert.DeserializeObject<AConfigurationClass>(File.ReadAllText("config.json")).Token;
 
-            await _client.LoginAsync(TokenType.Bot, Token);
+            var token = Environment.GetEnvironmentVariable("BOT_TOKEN");
+            
+            await _client.LoginAsync(TokenType.Bot, token);
             await _client.StartAsync();
 
             _client.MessageReceived += GabeifyMessage;
@@ -52,12 +52,12 @@ namespace Gabefier
             var message = messageParam as SocketUserMessage;
             if (message == null) return;
 
-            if (message.Author.Username.ToLower() == "waimbes" || message.Author.Id == _storedId)
+            if (message.Content.Length >= 6 && message.Content.Substring(0, 5) == "!gabe" && !message.Author.IsBot)
             {
                 _storedId = message.Author.Id;
                 
                 var gabefiedMessage = "";
-                for (int i = 0; i < message.Content.Length; i++)
+                for (int i = 5; i < message.Content.Length; i++)
                 {
                     gabefiedMessage += i % 2 == 0
                         ? message.Content[i].ToString().ToLower()
